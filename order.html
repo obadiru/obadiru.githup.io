@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>THE ROLLING SLICE</h1></header>
+    <nav>
+    <a href="index.html">About</a>
+    <div class="dropdown">
+        <a href="#">Menu</a>
+        <div class="dropdown-content">
+            <a href="calendar.html">Calendar</a>
+            <a href="menulist.html">Menu Page</a>
+        </div>
+    </div>
+    <a href="order.html">Order</a>
+    <a href="location.html">Location</a>
+    <a href="contact.html">Contact</a>
+    <a href="sitemap.html">Sitemap</a>
+    <a href="assignment4.html">Member</a>
+</nav>
+    <main>
+        <h2>Place Your Order</h2>
+<form id="orderForm">
+    <label><input type="checkbox" name="item" value="12.99"> Pizza - $12.99</label><br>
+    <label><input type="checkbox" name="item" value="9.99"> Pasta - $9.99</label><br>
+    <p>Tax: 13%</p>
+    <p>Total: $<span id="totalCost">0.00</span></p>
+    <button type="button" onclick="calculateTotal()">Calculate</button>
+</form>
+<script src="order.js"></script>
+    </main>
+    <footer><p>&copy; 2025 THE ROLLING SLICE</p></footer>
+</body>
+</html>

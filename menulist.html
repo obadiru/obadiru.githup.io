@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menulist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slideshow.css" />
+    <script src="slideshowdata.js" defer></script>
+    <script src="slideshow.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>THE ROLLING SLICE</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">About</a>
+        <div class="dropdown">
+            <a href="#">Menu</a>
+            <div class="dropdown-content">
+                <a href="calendar.html">Calendar</a>
+                <a href="menulist.html">Menu Page</a>
+            </div>
+        </div>
+        <a href="order.html">Order</a>
+        <a href="location.html">Location</a>
+        <a href="contact.html">Contact</a>
+        <a href="sitemap.html">Sitemap</a>
+        <a href="assignment4.html">Member</a>
+    </nav>
+
+    <main>
+        <article>
+
+            <div id="lightbox"></div>
+        </article>
+
+        
+        <section id="favoritesContainer" style="margin-top: 2rem;">
+            <h2>My Favorite List (<span id="favCount">0</span>/5)</h2>
+            <div id="favoritesList" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
+            <p id="favMessage" style="color: red;"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 The Rolling Slice</p>
+    </footer>
+</body>
+
+</html>
